@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pertemuan6/pages/dashboard.dart';
 import 'package:pertemuan6/pages/profile.dart';
+import 'package:pertemuan6/pertemuan/pertemuan7.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
 void main() {
