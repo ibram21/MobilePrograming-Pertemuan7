@@ -2,36 +2,38 @@ import 'package:flutter/material.dart';
 // Import halaman pertemuan sesuai struktur folder di PPT
 import 'package:pertemuan6/pertemuan/pertemuan5.dart';
 import 'package:pertemuan6/pertemuan/pertemuan6.dart';
+import 'package:pertemuan6/pertemuan/pertemuan7.dart';
+import 'package:pertemuan6/pertemuan/pertemuan8.dart';
 
 class DashboardPage extends StatelessWidget {
-  // 1. Hapus keyword 'const' dari constructor agar tidak konflik dengan menuItems
   DashboardPage({super.key});
 
-  // 2. Hapus keyword 'const' sebelum tanda kurung siku [
   final List<Map<String, dynamic>> menuItems = [
     {
       "title": "Pertemuan 5",
       "icon": Icons.auto_stories,
       "color": Colors.blue,
-      "page": const Text("Halaman Pertemuan 5"), // Tambahkan const di sini jika classnya mendukung
+      "page": const Text(
+        "Halaman Pertemuan 5",
+      ), // Tambahkan const di sini jika classnya mendukung
     },
     {
       "title": "Pertemuan 6",
       "icon": Icons.auto_stories,
       "color": Colors.green,
-      "page": const Text("Halaman Pertemuan 6"), // Tambahkan const di sini jika classnya mendukung
+      "page": CheckboxPage(), // Tambahkan const di sini jika classnya mendukung
     },
     {
       "title": "Pertemuan 7",
       "icon": Icons.auto_stories,
       "color": Colors.orange,
-      "page": const Text("Halaman Pertemuan 7"), 
+      "page": Pertemuan7Page(),
     },
     {
       "title": "Pertemuan 8",
       "icon": Icons.auto_stories,
       "color": Colors.purple,
-      "page": const Text("Halaman Pertemuan 8"),
+      "page": AutocompletespinPage(),
     },
   ];
 
