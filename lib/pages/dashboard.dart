@@ -4,6 +4,7 @@ import 'package:pertemuan6/pertemuan/pertemuan5.dart';
 import 'package:pertemuan6/pertemuan/pertemuan6.dart';
 import 'package:pertemuan6/pertemuan/pertemuan7.dart';
 import 'package:pertemuan6/pertemuan/pertemuan8.dart';
+import 'package:pertemuan6/pertemuan/pertemuan9.dart';
 
 class DashboardPage extends StatelessWidget {
   DashboardPage({super.key});
@@ -34,6 +35,12 @@ class DashboardPage extends StatelessWidget {
       "icon": Icons.auto_stories,
       "color": Colors.purple,
       "page": AutocompletespinPage(),
+    },
+    {
+      "title": "Pertemuan 9",
+      "icon": Icons.auto_stories,
+      "color": Colors.purple,
+      "page": Pertemuan9Page(),
     },
   ];
 
