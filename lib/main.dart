@@ -3,7 +3,8 @@ import 'package:pertemuan6/pages/dashboard.dart';
 import 'package:pertemuan6/pages/profile.dart';
 import 'package:pertemuan6/pertemuan/pertemuan6.dart';
 import 'package:pertemuan6/pertemuan/pertemuan7.dart';
-import 'package:pertemuan6/pertemuan/pertemuan8.dart'; // update github test
+import 'package:pertemuan6/pertemuan/pertemuan8.dart'; // 
+import 'package:pertemuan6/pertemuan/pertemuan9.dart'; // update github test
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
 void main() {
